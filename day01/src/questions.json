@@ -1,0 +1,102 @@
+{
+    "question1": {
+        "question": "What is the capital of France?",
+        "answers": {
+            "answer1": "New York",
+            "answer2": "Wakanda",
+            "answer3": "Paris",
+            "answer4": "Seoul"
+        },
+        "answer": "Paris"
+    },
+    "question2": {
+        "question": "Who is Mr.Beast ?",
+        "answers": {
+            "answer1": "An Actor",
+            "answer2": "A Youtuber",
+            "answer3": "A Musician",
+            "answer4": "A Painter"
+        },
+        "answer": "A Youtuber"
+    },
+    "question3": {
+        "question": "The iPhone was created by which comapny?",
+        "answers": {
+            "answer1": "Samsung",
+            "answer2": "Apple",
+            "answer3": "Tesla",
+            "answer4": "Microsoft"
+        },
+        "answer": "Apple"
+    },
+    "question4": {
+        "question": "Who created One Piece?",
+        "answers": {
+            "answer1": "Eichiro Oda",
+            "answer2": "Masashi Kishimoto",
+            "answer3": "Kohei Horikoshi",
+            "answer4": "Luffy himself"
+        },
+        "answer": "Eichiro Oda"
+    },
+    "question5": {
+        "question": "What is the capital of Canada",
+        "answers": {
+            "answer1": "Victoria",
+            "answer2": "Toronto",
+            "answer3": "Montreal",
+            "answer4": "Ottawa"
+        },
+        "answer": "Ottawa"
+    },
+    "question6": {
+        "question": "How many time zones there is in Russia",
+        "answers": {
+            "answer1": "3",
+            "answer2": "6",
+            "answer3": "11",
+            "answer4": "9"
+        },
+        "answer": "11"
+    },
+    "question7": {
+        "question": "What is the longest river in the world?",
+        "answers": {
+            "answer1": "The Nile",
+            "answer2": "The Mississippi",
+            "answer3": "The Saint Larence River",
+            "answer4": "The Ganges"
+        },
+        "answer": "The Nile"
+    },
+    "question8": {
+        "question": "What is the national animal of Autralia",
+        "answers": {
+            "answer1": "Koala",
+            "answer2": "Marsupials",
+            "answer3": "Kangaroo",
+            "answer4": "Dogs"
+        },
+        "answer": "Kangaroo"
+    },
+    "question9": {
+        "question": "What was the original name of Twitch.tv",
+        "answers": {
+            "answer1": "Boomer.tv",
+            "answer2": "Justin.tv",
+            "answer3": "Stream.com",
+            "answer4": "Stream.tv"
+        },
+        "answer": "Justin.tv"
+    },
+    "question10": {
+        "question": "Which cartoon character lives in a pineapple under the sea?",
+        "answers": {
+            "answer1": "Sonic",
+            "answer2": "Naruto",
+            "answer3": "Spongebob",
+            "answer4": "Sangoku"
+        },
+        "answer": "Spongebob"
+    }
+}
