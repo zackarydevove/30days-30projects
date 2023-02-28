@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  width: 700px;
+  position: relative;
+}
+
+
+
+
+.left {
+  background-color: #2A265F;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 25px;
+  max-width: 250px;
+  color: white;
+  position: relative;
+}
+
+.right {
+  flex: 3;
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 30px;
+  color: black;
+  position: relative;
+}
+
+.right h1 {
+  position: absolute;
+  top: 60px;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.top h3 {
+  position: absolute;
+  top: 15px;
+}
+
+.top-right {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 150px;
+}
+
+.progress {
+  background-color: #ddd;
+  border-radius: 3px;
+  height: 5px;
+  width: 100%;
+}
+
+.progress::after {
+  border-radius: 3px;
+  background-color: #2A265f;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 66%;
+}
+
+.top-right h4 {
+  position: absolute;
+  right: 0;
+  font-size: 9px;
+}
+
+button {
+  background-color: #2A265F;
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 100px;
+  height: 33px;
+}
+
+
+
+
+h1 {
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+h3, h4 {
+  color: grey;
+  font-size: 0.8em;
+}
+
+h4 {
+  font-size: 0.6em;
+}
+
