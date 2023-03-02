@@ -1,0 +1,45 @@
+:root {
+  --background: white;
+  --color: black;
+}
+
+[theme = 'dark'] {
+  --background: #282c34;
+  --color: white;
+}
+
+* {
+  transition: 0.3s;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--background);
+  color: var(--color);
+}
+.theme {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.theme-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 15px;
+  width: 15px;
+  box-shadow: -5px 5px 0 2px var(--color);
+  border-radius: 50%;
+}
+
+.theme-input {
+  display: none;
+}
