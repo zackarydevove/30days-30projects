@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(90deg, rgba(16,0,19,1) 0%, rgba(136,10,158,1) 0%, rgba(137,98,190,1) 38%, rgba(137,119,198,1) 47%, rgba(41,170,205,1) 100%);;
+  color: white;
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.task-column {
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.task-list {
+  list-style: none;
+  flex-grow: 1;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-item {
+  border: 1px solid rgba(255,255,255, 0.3);
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input input {
+  height: 30px;
+  width: 250px;
+  font-size: 1.2em;
+  border: none;
+}
+
+.input button {
+  height: 32px;
+  width: 30px;
+  border: none;
+}
+
+.input button:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
