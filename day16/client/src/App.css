@@ -1,0 +1,77 @@
+:root {
+  --background_color: white;
+  --border: black;
+  --color: black;
+  --hover: grey;
+  --button_background_color: rgb(23, 167, 250);
+}
+
+body {
+  background-color: var(--background_color);
+  color: var(--color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.container h1 {
+  position: absolute;
+  top: 0;
+}
+
+.container input {
+  margin-bottom: 30px;
+  height: 25px;
+  width: 75%;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+button {
+  background-color: var(--button_background_color);
+  color: white;
+  font-size: 1.3em;
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  position: absolute;
+  bottom: 70px;
+}
+
+.member{
+  position: absolute;
+  bottom: 0;
+}
+
+.auth {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.auth button {
+  bottom: 10px;
+}
