@@ -16,6 +16,8 @@ Doing 30 React Projects In 30 Days
 01/03/22 day12 Password Generator\
 02/03/22 day13 Auto Text\
 03/03/22 day14 Drag n Drop
+04/03/22 day15 FAQ
+05/03/22 day16 Authentication
 
 You can found all demo of the projects on my twitter's thread:
 
