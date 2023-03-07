@@ -17,7 +17,9 @@ Doing 30 React Projects In 30 Days
 02/03/22 day13 Auto Text\
 03/03/22 day14 Drag n Drop\
 04/03/22 day15 FAQ\
-05/03/22 day16 Authentication
+05/03/22 day16 Authentication\
+06/03/22 day15 Infinite Scroll\
+07/03/22 day16 Typing Game
 
 You can found all demo of the projects on my twitter's thread:
 
