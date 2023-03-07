@@ -1,0 +1,32 @@
+
+[theme='dark'] {
+    --background_color: #2a2438;
+    --color: white;
+    --border: white;
+    --box_background_color: #5e35c4;
+  }
+  
+  .theme {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    
+    .theme-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 15px;
+      width: 15px;
+      box-shadow: -5px 5px 0 2px var(--color);
+      border-radius: 50%;
+    }
+    
+    .theme-input {
+      display: none;
+    }
+  
+    .link {
+      color: var(--color);
+    }
