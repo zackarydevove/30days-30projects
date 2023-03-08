@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 280px;
+  height: 200px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.input-box {
+  position: absolute;
+  top: 10px;
+}
+
+.temp {
+  font-size: 4em;
+  position: absolute;
+  top: 0px;
+}
+
+.city{
+  position: absolute;
+  top: 20px;
+}
+
+.weather {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.wind {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+input {
+  width: 85%;
+  height: 20px;
+  border: none;
+}
+
+button {
+  height: 22px;
+  border: none;
+}
+
+button:hover {
+  background-color: antiquewhite;
+  cursor: pointer;
+}
