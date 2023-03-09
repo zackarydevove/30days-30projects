@@ -1,0 +1,57 @@
+:root {
+  --background_color: white;
+  --color: black;
+  --border: white;
+  --luna: black;
+  --square_background_color: rgb(201, 197, 197);
+  --hover: rgb(206, 244, 247);
+  --button_background_color: rgb(97, 197, 255);
+}
+
+body {
+  background-color: var(--background_color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status {
+  color: var(--color);
+}
+
+.square {
+  color: var(--color);
+  background-color: var(--square_background_color);
+  width: 100px;
+  height: 100px;
+  float: left;
+  border: 1px solid var(--border);
+  font-size: 4em;
+  text-align: center;
+}
+
+.square:hover {
+  background-color: var(--hover);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.restart {
+  background-color: var(--button_background_color);
+  color: var(--border);
+  font-size: 2em;
+  height: auto;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
