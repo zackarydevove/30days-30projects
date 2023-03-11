@@ -19,7 +19,11 @@ Doing 30 React Projects In 30 Days
 04/03/22 day15 FAQ\
 05/03/22 day16 Authentication\
 06/03/22 day17 Infinite Scroll\
-07/03/22 day18 Typing Game
+07/03/22 day18 Typing Game\
+08/03/22 day19 Weather App\
+09/03/22 day20 TicTacToe Game\
+10/03/22 day21 OAuth2\
+11/03/22 day22 Calendar
 
 You can found all demo of the projects on my twitter's thread:
 
