@@ -1,5 +1,8 @@
-# 30days-30projects
-Doing 30 React Projects In 30 Days
+<h1>30 React Projects in 30 Days</h1>
+
+This repository contains a collection of 30 React projects completed over 30 consecutive days, aiming to improve my understanding and proficiency in using React.
+
+<h1> Project List  </h1>
 
 17/02/22 day00: Random Meal API\
 18/02/22 day01 Quizz App\
@@ -25,6 +28,18 @@ Doing 30 React Projects In 30 Days
 10/03/22 day21 OAuth2\
 11/03/22 day22 Calendar
 
-You can found all demo of the projects on my twitter's thread:
+<h1> Project Demos </h1>
 
-https://twitter.com/ZackaryDevove/status/1627027728686882816
+You can found all demo of the projects on my twitter's thread <a href="https://twitter.com/ZackaryDevove/status/1627027728686882816">here</a>
+
+<h1>Getting Started</h1>
+
+To run any of the projects locally, follow these steps:
+
+1. Clone the repository
+2. Navigate to the specific project folder
+3. Install dependencies using npm install
+4. Run the project using npm start
+5. Open your browser and go to http://localhost:3000
+
+Enjoy exploring the projects and feel free to reach out if you have any questions or suggestions!
